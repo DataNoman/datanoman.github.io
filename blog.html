@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Noman Alam</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Noman Alam</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle">
+                    <img src="https://img.icons8.com/ios-filled/24/null/sun.png" alt="Light Mode" class="light-icon">
+                    <img src="https://img.icons8.com/ios-filled/24/null/moon-symbol.png" alt="Dark Mode" class="dark-icon" style="display: none;">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="blog-posts" class="section container animate-on-scroll">
+            <h1>My Blog</h1>
+            <p class="intro-text">Thoughts, tutorials, and insights on data science, technology, and my learning journey.</p>
+
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-thumbnail">
+                        <img src="https://via.placeholder.com/400x250.png?text=Blog+Post+1" alt="Blog Post Thumbnail">
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="#">Understanding Machine Learning Interpretability</a></h3>
+                        <p class="blog-meta">May 15, 2024 | Data Science, ML Ethics</p>
+                        <p>Delving into why understanding ML model decisions is crucial and common techniques like LIME and SHAP.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-thumbnail">
+                        <img src="https://via.placeholder.com/400x250.png?text=Blog+Post+2" alt="Blog Post Thumbnail">
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="#">A Beginner's Guide to Pandas for Data Analysis</a></h3>
+                        <p class="blog-meta">April 28, 2024 | Python, Data Analysis</p>
+                        <p>An introduction to the fundamental Pandas operations for data cleaning, transformation, and analysis.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-thumbnail">
+                        <img src="https://via.placeholder.com/400x250.png?text=Blog+Post+3" alt="Blog Post Thumbnail">
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="#">Setting Up Your Data Science Environment in VS Code</a></h3>
+                        <p class="blog-meta">April 10, 2024 | Tools, Productivity</p>
+                        <p>Tips and tricks for configuring VS Code for an efficient data science workflow, from extensions to settings.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Noman Alam. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/nomanalam" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://github.com/DataNoman" target="_blank" aria-label="GitHub">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
